@@ -54,3 +54,179 @@
 </table>
 
 <button onclick="alert('Halo Arfan!')">Klik Aku</button>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Belajar Coding di HP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e0f7fa;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #0077b6;
+    }
+
+    .box {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 400px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0077b6;
+      color: yellow;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 15px;
+    }
+
+    .btn:hover {
+      background-color: #005f87;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Belajar Coding di HP</h1>
+
+  <div class="box">
+    <img src="foto.jpg" alt="Gambar Coding">
+    <p>Saya belajar coding HTML dan CSS langsung dari HP dengan aplikasi Acode. Semangat terus!</p>
+    <a href="https://arfan-code123.github.io/belajar-coding-website-hp/" class="btn" target="_blank">Lihat GitHub Saya</a>
+  </div>
+
+</body>
+</html>
+
+<button onclick="tampilkanPesan()">Klik Saya</button>
+
+<script>
+  function tampilkanPesan() {
+    alert("Halo Arfan! Semangat belajar coding 💪");
+  }
+</script>
+
+<p id="pesan">Halo, ini teks awal.</p>
+<button onclick="ubahTeks()">Ubah Teks</button>
+
+<script>
+  function ubahTeks() {
+    document.getElementById("pesan").innerHTML = "Teks sudah berubah, mantap!";
+  }
+</script>
+
+<p>Kamu sudah klik: <span id="jumlah">0</span> kali</p>
+<button onclick="tambahKlik()">Klik Lagi</button>
+
+<script>
+  let jumlah = 0;
+
+  function tambahKlik() {
+    jumlah++;
+    document.getElementById("jumlah").innerText = jumlah;
+  }
+</script><!DOCTYPE html>
+<html>
+<head>
+  <title>Belajar Coding di HP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e0f7fa;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #0077b6;
+    }
+
+    .box {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 400px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0077b6;
+      color: yellow;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 15px;
+    }
+
+    .btn:hover {
+      background-color: #005f87;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Belajar Coding di HP</h1>
+
+  <div class="box">
+    <img src="foto.jpg" alt="Gambar Coding">
+    <p>Saya belajar coding HTML dan CSS langsung dari HP dengan aplikasi Acode. Semangat terus!</p>
+    <a href="https://arfan-code123.github.io/belajar-coding-website-hp/" class="btn" target="_blank">Lihat GitHub Saya</a>
+  </div>
+
+</body>
+</html>
+
+<button onclick="tampilkanPesan()">Klik Saya</button>
+
+<script>
+  function tampilkanPesan() {
+    alert("Halo Arfan! Semangat belajar coding 💪");
+  }
+</script>
+
+<p id="pesan">Halo, ini teks awal.</p>
+<button onclick="ubahTeks()">Ubah Teks</button>
+
+<script>
+  function ubahTeks() {
+    document.getElementById("pesan").innerHTML = "Teks sudah berubah, mantap!";
+  }
+</script>
+
+<p>Kamu sudah klik: <span id="jumlah">0</span> kali</p>
+<button onclick="tambahKlik()">Klik Lagi</button>
+
+<script>
+  let jumlah = 0;
+
+  function tambahKlik() {
+    jumlah++;
+    document.getElementById("jumlah").innerText = jumlah;
+  }
+</script>
