@@ -1,1 +1,56 @@
 # belajar-coding-website-hp
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website Kedua Arfan</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background-color: #f0f8ff;
+    }
+    img {
+      width: 300px;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Halo, Ini Website Baru Saya</h1>
+  <p>maaf jika kelihatan masih berantakan</p>
+
+  <!-- Gambar -->
+  <img src="foto.jpg" alt="Gambar Website">
+
+</body>
+</html>
+
+<img src="sertifikat1.jpg" alt="Foto Saya" width="200">
+
+</body>
+</html>
+
+<img src="serifikat2.jpg" alt="Foto Saya" width="200">
+
+<button>Klik Saya</button>
+
+<a href="https://youtube.com/@toliambarecordwakatobi7189" target="_blank">Kunjungi YouTube</a>
+
+<h1 style="color: blue;">Belajar Coding Melalui Hp</h1>
+<p style="color: green; font-size: 18px;"><p>Saya sedang belajar coding melalui HP. Walau hanya dengan perangkat sederhana, saya tetap semangat mengasah skill setiap hari!</p><p>Belajar coding tidak harus mahal. Dengan HP di tangan, saya terus melangkah maju, menulis baris demi baris kode, mengejar mimpi jadi programmer hebat.</p><h2>Tentang Saya</h2>
+<p>Nama saya Arfan. Saya belajar coding secara otodidak hanya menggunakan HP. Dengan semangat dan konsistensi, saya percaya masa depan saya bisa lebih baik melalui dunia teknologi.</p></p>
+
+<table border="1">
+  <tr>
+    <th>Nama</th>
+    <th>Umur</th>
+  </tr>
+  <tr>
+    <td>Arfan</td>
+    <td>25</td>
+  </tr>
+</table>
+
+<button onclick="alert('Halo Arfan!')">Klik Aku</button>
